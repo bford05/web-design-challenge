@@ -1,16 +1,16 @@
 body {
-  background-color: lightgrey;
+  background-color: pink;
 
 }
 
-.navbar {
+/* .navbar {
     overflow: hidden;
     background-color: aquamarine;
     font-family: Arial;
   }
   
   /* Links inside the navbar */
-  .navbar a {
+  /* .navbar a {
     float: right;
     font-size: 16px;
     color: violet;
@@ -18,23 +18,23 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     display: inline-block;
-  }
+  }  */
   
-#navbar-home {
+/* #navbar-home {
     display: inline-block;
     float: left;
 
-}
+} */
 
 
   /* The dropdown container */
-  .dropdown {
+  /* .dropdown {
     float: right;
     overflow: hidden;
-  }
+  } */
   
   /* Dropdown button */
-  .dropdown .dropbtn {
+  /* .dropdown .dropbtn {
     font-size: 16px;
     border: none;
     outline: none;
@@ -42,13 +42,13 @@ body {
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
+    /* margin: 0; /* Important for vertical align on mobile phones */
+  /* } */ 
   
   /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  /* .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: pink;
-  }
+  } */
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
@@ -76,9 +76,9 @@ body {
   }
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
+  /* .dropdown:hover .dropdown-content {
     display: block;
-  }
+  } */
 
   .box {
     padding: 30px;
@@ -110,28 +110,29 @@ body {
     font-family: arial;
     font-size: 30px;
     text-transform: uppercase;
-    color: violet;
+    color: navy;
     text-align: center;
     padding: 40px;
   }
   h2 {
     font-family: arial;
     font-size: 30px;
-    color: violet;
+    color: navy;
     text-emphasis: bold;
   }
   
   p {
     font-family: arial;
-    color: violet;
+    color: navy;
     font-size: 20px;
   }
-  a {
+
+  /* a {
     font-family: arial;
     color: white;
     text-decoration: none;
     font-size: 25px;
-  }
+  } */
 
   .col-md-6 {
     padding: 55px;
