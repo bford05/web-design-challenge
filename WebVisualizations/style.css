@@ -1,21 +1,40 @@
-.navbar {
-    background-color: white;
+body {
+  background-color: lightgrey;
+
 }
 
-.navbar a {
+.navbar {
+    overflow: hidden;
+    background-color: aquamarine;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
     float: right;
     font-size: 16px;
     color: violet;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    display: inline-block;
+  }
+  
+#navbar-home {
+    display: inline-block;
+    float: left;
+
 }
 
-.dropdown {
+
+  /* The dropdown container */
+  .dropdown {
     float: right;
-}
-
-.dropdown .dropbtn {
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
     font-size: 16px;
     border: none;
     outline: none;
@@ -24,35 +43,96 @@
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: aquamarine;
-}
-
-.dropdown-content {
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: pink;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
     display: none;
-    float: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
-
-.dropdown-content a {
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: aquamarine;
-}
-
-.dropdown:hover .dropdown-content {
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: pink;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
     display: block;
-}
+  }
+
+  .box {
+    padding: 30px;
+    color: darkslategray;
+    background: white;
+    margin: 50px;
+  }
+
+  #box-visual {
+    padding: 20px;
+    background: white;
+    margin: 50px;
+    
+  }
+
+  .image {
+    float: left;
+    padding: -10px;
+  
+  }
+
+  #image-visual {
+    margin-left: -70px;
+    padding: 10px;
+  }
+
+
+  h1 {
+    font-family: arial;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: violet;
+    text-align: center;
+    padding: 40px;
+  }
+  h2 {
+    font-family: arial;
+    font-size: 30px;
+    color: violet;
+    text-emphasis: bold;
+  }
+  
+  p {
+    font-family: arial;
+    color: violet;
+    font-size: 20px;
+  }
+  a {
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .col-md-6 {
+    padding: 55px;
+  }

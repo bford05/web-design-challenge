@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Design Challenge</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="navbar">
+    <a href="#" id="navbar-home">Lattitude</a>
+    <a href="#">Data</a>
+    <a href="#">Comparison</a>
+    <div class="dropdown">
+      <button class="dropbtn">Plots
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Max Temp</a>
+        <a href="#">Humidity</a>
+        <a href="#">Cloudiness</a>
+        <a href="#">Wind Speed</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class= "box"><h1>Summary: Lattitude vs. X</h1>
+                <img width=350 src="Lat vs Max Temp.png" class="image">
+            
+            <p>The purpose of this project was to analyze how weather changes
+                as you get closer to the equator. To accomplish this analysis, we
+                first pulled data from the OpenWeatherMap API to assemble a dataset
+                on over 500 cities. <br><br>
+                After assembling the dataset, we used Matplotlib to plot various aspects
+                of the weather vs lattitude. Factors we looked at included: temperature,
+                cloudiness, wind speed, and humidity. This site provides the source data and
+                visualizations created as part of the analysis, as well as explanations and
+                descriptions of any trends and correlations witnessed.</p>
+            </div>
+            
+        </div>
+        <div class="col-md-4">
+            <div id= "box-visual">
+                <h2>Visualizations</h2>
+                <div class="row">
+                    <div class= "col-md-6">
+                        <a href="Lat vs Max Temp.png"><img width=150 src="Lat vs Max Temp.png" id="image-visual"></a>
+                    </div>
+                    <div class= "col-md-6">
+                        <a href="Lat vs Humidity.png"><img width=150 src="Lat vs Humidity.png" id="image-visual"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "col-md-6">
+                        <a href="Lat vs Cloudiness.png"><img width=150 src="Lat vs Cloudiness.png" id="image-visual"></a>
+                    </div>
+                    <div class= "col-md-6">
+                        <a href="Lat vs Wind Speed.png"><img width=150 src="Lat vs Wind Speed.png" id="image-visual"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</div>
+</div>
+
+</body>
+
+</html>
