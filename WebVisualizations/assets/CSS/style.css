@@ -1,5 +1,5 @@
 body {
-  background-color: pink;
+  background-color: lightsteelblue;
 
 }
 
@@ -91,6 +91,7 @@ body {
     padding: 20px;
     background: white;
     margin: 50px;
+  
     
   }
 
@@ -120,6 +121,16 @@ body {
     color: navy;
     text-emphasis: bold;
   }
+
+  h3 {
+    font-size: 15px;
+    color: gray;
+  }
+
+  h4 {
+    font-size: 20px;
+    color: navy;
+  }
   
   p {
     font-family: arial;
@@ -137,3 +148,19 @@ body {
   .col-md-6 {
     padding: 55px;
   }
+
+  .col-md-12 {
+    padding: 30px;
+    margin: 20px;
+  }
+
+  /*
+  .col-md-8 {
+    left: 200px;
+  }
+*/
+  .col-md-4 {
+    left: -50px;
+  
+  }
+
