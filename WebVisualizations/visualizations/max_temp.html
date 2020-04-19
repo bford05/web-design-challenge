@@ -51,7 +51,7 @@
       <!--Code for container for image of Max Temp and analysis details-->
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8">
                 <div class= "box"><h1>Summary: Latitude vs. Max Temp</h1>
                     <img width=350 src="../assets/Images/Lat vs Max Temp.png" class="image">
                 
@@ -64,14 +64,36 @@
                   and are geographically located further away from the equator. The data aligns completely
                   to expectations and scientific facts.
                 </p>
-                </div>
-                
-            </div>
+                </div>  
+            </div> 
             
-        </div>
-            
-    </div>
+            <!--Create ability to navigate to individual page from visualization-->
 
+            <div class="col-md-4">
+              <div id= "box-visual">
+                  <h2>Visualizations</h2>
+                  <div class="row">
+                      <div class= "col-md-6">
+                          <a href="visualizations/max_temp.html"><img width=150 src="../assets/Images/Lat vs Max Temp.png" id="image-visual"></a>
+                      </div>
+                      <div class= "col-md-6">
+                          <a href="visualizations/humidity.html"><img width=150 src="../assets/Images/Lat vs Humidity.png" id="image-visual"></a>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class= "col-md-6">
+                          <a href="visualizations/Cloudiness.html"><img width=150 src="../assets/Images/Lat vs Cloudiness.png" id="image-visual"></a>
+                      </div>
+                      <div class= "col-md-6">
+                          <a href="visualizations/wind speed.html"><img width=150 src="../assets/Images/Lat vs Wind Speed.png" id="image-visual"></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+        </div>
+      </div> 
+    
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
